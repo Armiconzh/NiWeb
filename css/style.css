@@ -62,7 +62,7 @@ html, body {
 	height: 80%;
 	width: 100%;
 	margin-bottom: 1000 px ;
-	background-image: url(../img/f.jpg);
+	background-image: url(../img/1.jpg);
 	display: table;
 	top: 0;
 	background-size: cover;
@@ -86,9 +86,32 @@ html, body {
 	font-family: 'Montserrat',sans-serif;
 	color: #f9f3f4;
 	text-shadow: 0px 0px 300px #000;
-	font-size: 500%;
+	font-size: 300%;
 }
 
+.content h2 {
+  font-family: 'Montserrat',sans-serif;
+  color: #f9f3f4;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 100%;
+}
+
+.btn {
+  border: 3px solid #f9f3f4;
+  border-radius: 9px;
+  text-decoration: none;
+  color: #f9f3f4;
+  font-size: 135%;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-family: 'Oswald',sans-serif;
+}
+
+.btn:hover {
+  color: #f9f3f4;
+  border: 3px solid #f9f3f4;
+  transition: 0.5s;
+}
 .cards {
   display: inline-block;
   margin-left: 200px;
@@ -127,18 +150,4 @@ html, body {
 
 .card h4 {
 	font-family: 'Montserrat';
-}
-
-.foot {
-  overflow: show;
-  padding: 4px;
-  background: #0F3736;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 3%;
-  text-align: center;
-  top: 10;
-  font-family: 'Montserrat';
-
 }
